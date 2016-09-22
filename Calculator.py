@@ -4,5 +4,6 @@ class Calculator:
         if len(input) == 0:
             answer = [0]
         else:
-            answer = [len(input)]
+            splitInput = input.split(',')
+            answer = [len(splitInput)]
         return answer
