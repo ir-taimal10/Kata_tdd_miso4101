@@ -41,3 +41,6 @@ class TestStringMethods(unittest.TestCase):
 
     def test_buildResponse_maximum_single_item_string(self):
         self.assertEquals(Calculator().buildResponse(self.SINGLE_ITEM)[2], 5)
+
+    def test_buildResponse_maximum_two_item_string(self):
+        self.assertEquals(Calculator().buildResponse(self.TWO_ITEMS)[2], 2)
