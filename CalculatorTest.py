@@ -56,3 +56,6 @@ class TestStringMethods(unittest.TestCase):
 
     def test_buildResponse_average_two_item_string(self):
         self.assertEquals(Calculator().buildResponse(self.TWO_ITEMS)[3], 1.5)
+
+    def test_buildResponse_average_multiple_item_string(self):
+        self.assertEquals(Calculator().buildResponse(self.MULTIPLE_ITEMS)[3], 4.5)
