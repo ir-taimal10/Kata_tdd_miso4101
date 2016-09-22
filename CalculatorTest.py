@@ -21,3 +21,6 @@ class TestStringMethods(unittest.TestCase):
 
     def test_buildResponse_minimum_empty_string(self):
         self.assertEquals(Calculator().buildResponse("")[1], None)
+
+    def test_buildResponse_minimum_single_item_string(self):
+        self.assertEquals(Calculator().buildResponse("1")[1], 1)
