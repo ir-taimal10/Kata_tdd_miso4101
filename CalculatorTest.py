@@ -50,3 +50,6 @@ class TestStringMethods(unittest.TestCase):
 
     def test_buildResponse_average_empty_string(self):
         self.assertEquals(Calculator().buildResponse(self.EMPTY)[3], None)
+
+    def test_buildResponse_average_single_item_string(self):
+        self.assertEquals(Calculator().buildResponse(self.SINGLE_ITEM)[3], 5)
