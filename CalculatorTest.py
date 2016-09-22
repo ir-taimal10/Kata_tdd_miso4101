@@ -1,3 +1,6 @@
+# Ivan Ricardo Taimal Narvaez  codigo: 201522369
+# Sebastian Gamba Pinilla      codigo: 201522309
+
 import unittest
 
 from Calculator import Calculator

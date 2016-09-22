@@ -1,4 +1,5 @@
-
+# Ivan Ricardo Taimal Narvaez  codigo: 201522369
+# Sebastian Gamba Pinilla      codigo: 201522309
 
 class Calculator:
     def buildResponse(self, input):
