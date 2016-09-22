@@ -1,3 +1,5 @@
+
+
 class Calculator:
     def buildResponse(self, input):
         answer = []
@@ -8,4 +10,11 @@ class Calculator:
             answer.append(len(splitInput))
             answer.append(int(min(splitInput)))
             answer.append(int(max(splitInput)))
+            answer.append(self.average(splitInput))
         return answer
+
+    def average(self, split_input):
+        sum = 0.0
+        for i in range(0, len(split_input)):
+            sum = sum + int(split_input[i])
+        return sum / len(split_input)
