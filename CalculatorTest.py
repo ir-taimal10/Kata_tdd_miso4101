@@ -47,3 +47,6 @@ class TestStringMethods(unittest.TestCase):
 
     def test_buildResponse_maximum_multiple_item_string(self):
         self.assertEquals(Calculator().buildResponse(self.MULTIPLE_ITEMS)[2], 9)
+
+    def test_buildResponse_average_empty_string(self):
+        self.assertEquals(Calculator().buildResponse(self.EMPTY)[3], None)
