@@ -5,5 +5,6 @@ class Calculator:
             answer = [0, None]
         else:
             splitInput = input.split(',')
-            answer = [len(splitInput)]
+            answer.append(len(splitInput))
+            answer.append(int(min(splitInput)))
         return answer

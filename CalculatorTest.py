@@ -5,7 +5,7 @@ from Calculator import Calculator
 
 class TestStringMethods(unittest.TestCase):
     EMPTY = ""
-    SINGLE_ITEM = "1"
+    SINGLE_ITEM = "5"
     TWO_ITEMS = "1,2"
     MULTIPLE_ITEMS = "1,2,3,4,5,6,7,8,9,0"
 
@@ -28,4 +28,4 @@ class TestStringMethods(unittest.TestCase):
         self.assertEquals(Calculator().buildResponse(self.EMPTY)[1], None)
 
     def test_buildResponse_minimum_single_item_string(self):
-        self.assertEquals(Calculator().buildResponse(self.SINGLE_ITEM)[1], 1)
+        self.assertEquals(Calculator().buildResponse(self.SINGLE_ITEM)[1], 5)
