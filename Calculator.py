@@ -1,3 +1,6 @@
 class Calculator:
-    def buildResponse(self):
-        return 0
+    def buildResponse(self, input):
+        if len(input) == 0 :
+            return [0]
+        else:
+            return [0]
