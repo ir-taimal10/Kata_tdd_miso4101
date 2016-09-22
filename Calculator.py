@@ -7,4 +7,5 @@ class Calculator:
             splitInput = input.split(',')
             answer.append(len(splitInput))
             answer.append(int(min(splitInput)))
+            answer.append(int(max(splitInput)))
         return answer
