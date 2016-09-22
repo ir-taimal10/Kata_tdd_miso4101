@@ -2,5 +2,5 @@ import unittest
 
 class TestStringMethods(unittest.TestCase):
 
-   def test_calculator(self):
+   def test_calculatorgi(self):
        self.assert_(calculator)
