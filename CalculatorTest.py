@@ -35,3 +35,6 @@ class TestStringMethods(unittest.TestCase):
 
     def test_buildResponse_minimum_multiple_item_string(self):
         self.assertEquals(Calculator().buildResponse(self.MULTIPLE_ITEMS)[1], 0)
+
+    def test_buildResponse_maximum_empty_string(self):
+        self.assertEquals(Calculator().buildResponse(self.EMPTY)[2], None)
